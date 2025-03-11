@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-voice-control"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Tarasov"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.25"
+streamlit = "^1.30.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.5"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
